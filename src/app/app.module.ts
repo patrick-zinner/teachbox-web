@@ -6,19 +6,20 @@ import {AppComponent} from './app.component';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import {CoreModule} from './core/core.module';
 import {LayoutModule} from '@angular/cdk/layout';
-import {ClassesListComponent} from './classes-list/classes-list.component';
+import {ClassesListComponent} from './students/classes-list/classes-list.component';
 import {StudentsModule} from './students/students.module';
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ClassesListComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CoreModule,
-    StudentsModule
+    StudentsModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
