@@ -11,6 +11,12 @@ import {MatRadioModule} from '@angular/material/radio';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatInputModule} from '@angular/material/input';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatIconModule} from '@angular/material/icon';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatListModule, MatNavList} from '@angular/material/list';
+import {MatButtonModule} from '@angular/material/button';
 
 const modules: any[] = [
   LayoutModule,
@@ -23,7 +29,13 @@ const modules: any[] = [
   MatSelectModule,
   MatSliderModule,
   MatSlideToggleModule,
+  MatToolbarModule,
+  MatMenuModule,
   MatNativeDateModule,
+  MatIconModule,
+  MatSidenavModule,
+  MatListModule,
+  MatButtonModule,
 ];
 
 @NgModule({
